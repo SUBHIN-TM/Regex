@@ -35,4 +35,14 @@ console.log("8",text.match(find));//it will retn the  index value of 1st integer
 
 let finds = /\d/g;
 let texts = "Hello123World456";
-console.log("9",text.match(finds));//this wil give as an array of each integer valuer
+console.log("9",text.match(finds));//this wil give as an array of each integer valuer\e
+
+
+
+function order(words) {
+    return words.split(" ").sort((a,b) => a.match(/\d/) - b.match(/\d/)).join(" ")
+      
+   }
+   console.log( "Qstn",order("is2 Thi1s T4est 3a"));
+   
+   
