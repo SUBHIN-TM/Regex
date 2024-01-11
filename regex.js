@@ -46,3 +46,35 @@ function order(words) {
    console.log( "Qstn",order("is2 Thi1s T4est 3a"));
    
    
+   /*94.Complete the solution so that the function will break up camel casing, using a space between words.
+
+Example
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""*/
+
+
+function solution(string) {
+    return string.replace(/([a-z])([A-Z])/g, '$1 $2'); //(1)(2) capture small letter in group 1 and capitl in group 2 and g means occur for all means not for just one and for all , then repalce function
+    //$1 means 1st group that means 1st small lettre before capital letter 2nd means 1st capital letter =lC and for this replace qwith just space( )
+      
+  }
+  console.log(solution("camelCasingTest"));
+
+
+  //OR
+
+  function solution(string) {
+    return string.replace(/([A-Z])/g, ' $1'); //CHECK THE OCCURANCE OF CAPITAL LETTERS AND FOR ALL JUST REPLACE WITH SPACE BEFORE IT 
+  
+      
+  }
+  console.log(solution("camelCasingTest"));
+
+
+
+
+
+
+
+
