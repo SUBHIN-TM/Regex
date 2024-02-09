@@ -73,6 +73,8 @@ function solution(string) {
 
 
 
+  let a="subhin"
+  console.log(a);
 
 
 
