@@ -79,5 +79,7 @@ function kk(params) {
 kk("hello")
 
 
+let b=[1,3,2]
+console.log(b.sort());
 
 
