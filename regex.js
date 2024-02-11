@@ -79,13 +79,5 @@ function kk(params) {
 kk("hello")
 
 
-let b=[1,3,2]
-console.log(b.sort());
 
-
-function order(words) {
-  return words.split(" ").sort((a,b) => a.match(/\d/) - b.match(/\d/)).join(" ")
-    
- }
- console.log( "Qstn",order("is2 Thi1s T4est 3a"));
  
