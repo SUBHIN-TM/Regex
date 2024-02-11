@@ -72,10 +72,11 @@ function solution(string) {
   console.log(solution("camelCasingTest"));
 
 
+function kk(params) {
+  console.log(params);
+}
 
-  let a="subhin"
-  console.log(a);
-
+kk("hello")
 
 
 
