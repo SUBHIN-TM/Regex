@@ -39,11 +39,11 @@ console.log("9",text.match(finds));//this wil give as an array of each integer v
 
 
 
-function order(words) {
-    return words.split(" ").sort((a,b) => a.match(/\d/) - b.match(/\d/)).join(" ")
+// function order(words) {
+//     return words.split(" ").sort((a,b) => a.match(/\d/) - b.match(/\d/)).join(" ")
       
-   }
-   console.log( "Qstn",order("is2 Thi1s T4est 3a"));
+//    }
+//    console.log( "Qstn",order("is2 Thi1s T4est 3a"));
    
    
    /*94.Complete the solution so that the function will break up camel casing, using a space between words.
@@ -83,3 +83,9 @@ let b=[1,3,2]
 console.log(b.sort());
 
 
+function order(words) {
+  return words.split(" ").sort((a,b) => a.match(/\d/) - b.match(/\d/)).join(" ")
+    
+ }
+ console.log( "Qstn",order("is2 Thi1s T4est 3a"));
+ 
